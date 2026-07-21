@@ -665,3 +665,262 @@ Clean Go Implementation
 <img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:0F172A,100:2563EB"/>
 
 </p>
+
+
+# GitHub Analytics
+
+<p align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Priyanshu-singh11&show_icons=true&theme=github_dark&hide_border=true&border_radius=12&rank_icon=github"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu-singh11&layout=compact&theme=github_dark&hide_border=true&border_radius=12"/>
+
+</p>
+
+---
+
+# Contribution Activity
+
+<p align="center">
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Priyanshu-singh11&theme=github-dark&hide_border=true"/>
+
+</p>
+
+---
+
+# GitHub Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=Priyanshu-singh11&theme=github-dark-blue&hide_border=true&border_radius=10"/>
+
+</p>
+
+---
+
+# Repository Goals
+
+<table>
+
+<tr>
+
+<th width="35%">Objective</th>
+
+<th>Description</th>
+
+</tr>
+
+<tr>
+
+<td>Master DSA</td>
+
+<td>Build strong fundamentals from beginner to advanced.</td>
+
+</tr>
+
+<tr>
+
+<td>Problem Solving</td>
+
+<td>Develop intuition instead of memorizing solutions.</td>
+
+</tr>
+
+<tr>
+
+<td>Interview Preparation</td>
+
+<td>Practice patterns commonly asked in product-based companies.</td>
+
+</tr>
+
+<tr>
+
+<td>Clean Code</td>
+
+<td>Write readable and idiomatic Go implementations.</td>
+
+</tr>
+
+<tr>
+
+<td>Knowledge Base</td>
+
+<td>Create a long-term reference for algorithms and data structures.</td>
+
+</tr>
+
+</table>
+
+---
+
+# Repository Progress
+
+```text
+Foundation
+████████████████████████████████████
+
+Arrays
+███████████░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Strings
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Hashing
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Binary Search
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Linked List
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Trees
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Graphs
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+Dynamic Programming
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+```
+
+---
+
+# Learning Principles
+
+> Every solution in this repository follows the same engineering approach.
+
+```
+Read Problem
+
+↓
+
+Understand Constraints
+
+↓
+
+Find Brute Force
+
+↓
+
+Improve Solution
+
+↓
+
+Optimize
+
+↓
+
+Dry Run
+
+↓
+
+Analyze Complexity
+
+↓
+
+Write Clean Go Code
+
+↓
+
+Recognize Pattern
+
+↓
+
+Practice Similar Questions
+```
+
+---
+
+# Contribution Guide
+
+```bash
+# Clone
+
+git clone https://github.com/Priyanshu-singh11/dsa-with-me.git
+
+# Open Project
+
+cd dsa-with-me
+
+# Create Branch
+
+git checkout -b feature/problem-name
+
+# Commit
+
+git commit -m "Add problem-name solution"
+
+# Push
+
+git push origin feature/problem-name
+```
+
+---
+
+# Repository Standards
+
+Every problem should contain:
+
+- Problem Statement
+- Explanation
+- Brute Force Solution
+- Better Solution
+- Optimal Solution
+- Dry Run
+- Time Complexity
+- Space Complexity
+- Edge Cases
+- Clean Golang Code
+
+---
+
+# Future Topics
+
+| Phase | Topics |
+|--------|--------|
+| Phase 1 | Arrays · Strings · Hashing |
+| Phase 2 | Binary Search · Stack · Queue |
+| Phase 3 | Linked List · Recursion · Backtracking |
+| Phase 4 | Trees · BST · Heap · Trie |
+| Phase 5 | Graphs · BFS · DFS · Union Find |
+| Phase 6 | Greedy · Dynamic Programming |
+| Phase 7 | Segment Tree · Fenwick Tree · Advanced Algorithms |
+
+---
+
+# Support
+
+If this repository helps you learn Data Structures & Algorithms, consider giving it a ⭐.
+
+It motivates me to continue documenting my learning journey and improving the repository.
+
+---
+
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:0F172A&height=140&section=footer"/>
+
+</p>
+
+<p align="center">
+
+<b>DSA WITH ME</b>
+
+<br><br>
+
+Mastering Data Structures & Algorithms using Golang
+
+<br><br>
+
+<a href="https://github.com/Priyanshu-singh11">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://go.dev">
+<img src="https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go"/>
+</a>
+
+</p>

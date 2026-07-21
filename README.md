@@ -277,3 +277,391 @@ Advanced Graphs
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,100:2563EB&height=3"/>
 
 </p>
+
+
+# Repository Structure
+
+```text
+dsa-with-me
+│
+├── array
+│   ├── two-sum
+│   ├── kadane
+│   ├── repeat-missing-number
+│   ├── merge-intervals
+│   └── ...
+│
+├── string
+├── hashing
+├── sorting
+├── binary-search
+├── recursion
+├── backtracking
+├── linked-list
+├── stack
+├── queue
+├── tree
+├── bst
+├── heap
+├── trie
+├── graph
+├── dynamic-programming
+├── greedy
+├── bit-manipulation
+├── segment-tree
+├── fenwick-tree
+└── README.md
+```
+
+---
+
+# Learning Dashboard
+
+<table align="center">
+
+<tr>
+
+<th width="280">Topic</th>
+<th>Status</th>
+<th>Problems</th>
+
+</tr>
+
+<tr>
+<td>Arrays</td>
+<td>
+
+<img src="https://img.shields.io/badge/In%20Progress-2563EB?style=flat-square"/>
+
+</td>
+
+<td>✔ Growing</td>
+
+</tr>
+
+<tr>
+
+<td>Strings</td>
+
+<td>
+
+<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+
+</td>
+
+<td>—</td>
+
+</tr>
+
+<tr>
+
+<td>Hashing</td>
+
+<td>
+
+<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+
+</td>
+
+<td>—</td>
+
+</tr>
+
+<tr>
+
+<td>Binary Search</td>
+
+<td>
+
+<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+
+</td>
+
+<td>—</td>
+
+</tr>
+
+<tr>
+
+<td>Linked List</td>
+
+<td>
+
+<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+
+</td>
+
+<td>—</td>
+
+</tr>
+
+<tr>
+
+<td>Trees</td>
+
+<td>
+
+<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+
+</td>
+
+<td>—</td>
+
+</tr>
+
+<tr>
+
+<td>Graphs</td>
+
+<td>
+
+<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+
+</td>
+
+<td>—</td>
+
+</tr>
+
+<tr>
+
+<td>Dynamic Programming</td>
+
+<td>
+
+<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+
+</td>
+
+<td>—</td>
+
+</tr>
+
+</table>
+
+---
+
+# Topics Covered
+
+<table>
+
+<tr>
+
+<td width="25%">
+
+### Arrays
+
+- Two Sum
+- Kadane's Algorithm
+- Rotate Array
+- Merge Intervals
+- Majority Element
+- Missing Number
+- Stock Buy & Sell
+- Prefix Sum
+- Trapping Rain Water
+
+</td>
+
+<td width="25%">
+
+### Searching
+
+- Binary Search
+- Lower Bound
+- Upper Bound
+- Search Insert
+- Peak Element
+- Rotated Array
+- Search Matrix
+
+</td>
+
+<td width="25%">
+
+### Linked List
+
+- Reverse List
+- Middle Node
+- Detect Cycle
+- Merge Lists
+- Remove Nth Node
+- Intersection
+- LRU Basics
+
+</td>
+
+<td width="25%">
+
+### Graph
+
+- BFS
+- DFS
+- Cycle Detection
+- Topological Sort
+- Dijkstra
+- MST
+- Union Find
+
+</td>
+
+</tr>
+
+</table>
+
+---
+
+# Problem Layout
+
+Every problem follows a consistent structure.
+
+```text
+Problem Name
+│
+├── brute.go
+├── better.go
+├── optimal.go
+├── README.md
+└── notes.md
+```
+
+Each solution includes
+
+- Explanation
+- Approach
+- Dry Run
+- Time Complexity
+- Space Complexity
+- Edge Cases
+- Interview Notes
+
+---
+
+# Problem Solving Workflow
+
+```text
+Read Problem
+      │
+      ▼
+Understand Constraints
+      │
+      ▼
+Find Brute Force
+      │
+      ▼
+Improve Solution
+      │
+      ▼
+Optimize
+      │
+      ▼
+Dry Run
+      │
+      ▼
+Complexity Analysis
+      │
+      ▼
+Clean Go Implementation
+```
+
+---
+
+# Common Interview Patterns
+
+| Pattern | Examples |
+|----------|----------|
+| Two Pointer | Two Sum, Container With Most Water |
+| Sliding Window | Longest Substring, Maximum Sum |
+| Prefix Sum | Range Sum, Subarray Sum |
+| Binary Search | Search Insert, Peak Element |
+| Fast & Slow Pointer | Linked List Cycle |
+| Monotonic Stack | Next Greater Element |
+| Heap | K Largest Elements |
+| Backtracking | N Queens, Sudoku |
+| BFS | Shortest Path |
+| DFS | Islands, Graph Traversal |
+| Greedy | Jump Game |
+| Dynamic Programming | House Robber, LIS |
+
+---
+
+# Complexity Cheat Sheet
+
+| Operation | Complexity |
+|-----------|-----------:|
+| Array Access | O(1) |
+| Linear Search | O(n) |
+| Binary Search | O(log n) |
+| HashMap Lookup | O(1) |
+| Stack Push | O(1) |
+| Queue Pop | O(1) |
+| Heap Insert | O(log n) |
+| DFS | O(V + E) |
+| BFS | O(V + E) |
+| Merge Sort | O(n log n) |
+| Quick Sort (Average) | O(n log n) |
+| Quick Sort (Worst) | O(n²) |
+
+---
+
+# Coding Principles
+
+<table>
+
+<tr>
+
+<th>Principle</th>
+
+<th>Description</th>
+
+</tr>
+
+<tr>
+
+<td>Readable Code</td>
+
+<td>Simple and clean Golang implementation.</td>
+
+</tr>
+
+<tr>
+
+<td>Optimization First</td>
+
+<td>Reduce unnecessary time and space usage.</td>
+
+</tr>
+
+<tr>
+
+<td>Pattern Recognition</td>
+
+<td>Focus on reusable interview techniques.</td>
+
+</tr>
+
+<tr>
+
+<td>Consistency</td>
+
+<td>Every problem follows the same folder structure.</td>
+
+</tr>
+
+<tr>
+
+<td>Interview Ready</td>
+
+<td>Every solution is written with coding interviews in mind.</td>
+
+</tr>
+
+</table>
+
+---
+
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:0F172A,100:2563EB"/>
+
+</p>

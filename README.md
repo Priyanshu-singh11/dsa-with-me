@@ -4,18 +4,20 @@
 
 <p align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,25:1E293B,50:2563EB,75:1D4ED8,100:0F172A&text=DSA%20WITH%20ME&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=42&desc=Mastering%20Data%20Structures%20%26%20Algorithms%20using%20Golang&descAlignY=62&descSize=18"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0F172A,25:1E293B,50:2563EB,75:1D4ED8,100:0F172A&text=DSA%20WITH%20ME&fontSize=58&fontColor=FFFFFF&animation=fadeIn&fontAlignY=42&desc=Apna%20College%20DSA%20Series%20%E2%80%94%20Solved%20in%20Golang&descAlignY=62&descSize=18"/>
 
 </p>
 
-<!-- ========================================================= -->
-<!--                     ANIMATED TYPING                        -->
-<!-- ========================================================= -->
-
 <p align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=900&lines=Mastering+Data+Structures+%26+Algorithms;Learning+Problem+Solving+Patterns;Brute+Force+%E2%86%92+Better+%E2%86%92+Optimal;Preparing+for+Top+Product+Based+Companies;Building+Everything+using+Go"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2500&pause=800&color=3B82F6&center=true&vCenter=true&width=900&lines=Following+the+Shradha+Khapra+DSA+Series;Every+C%2B%2B+Concept%2C+Rebuilt+in+Go;Brute+Force+%E2%86%92+Better+%E2%86%92+Optimal;Lecture-by-Lecture+Progress+Tracking;Interview-Ready+Golang+Implementations"/>
 
+</p>
+
+<p align="center">
+<a href="https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt">
+<img src="https://img.shields.io/badge/Source%20Playlist-Apna%20College%20DSA%20Series-FF0000?style=for-the-badge&logo=youtube&logoColor=white"/>
+</a>
 </p>
 
 ---
@@ -40,30 +42,38 @@
 
 <img src="https://img.shields.io/github/languages/top/Priyanshu-singh11/dsa-with-me?style=for-the-badge"/>
 
+<img src="https://img.shields.io/badge/PRs-welcome-2563EB?style=for-the-badge"/>
+
 </p>
 
 ---
 
 # About
 
-This repository documents my complete journey of mastering **Data Structures & Algorithms** from beginner to advanced using **Go (Golang)**.
+This repository is my personal port of the **Apna College DSA Series (Shradha Khapra Ma'am)** — originally taught in C++ — rebuilt entirely in **Go (Golang)**.
 
-Instead of simply uploading solutions, this repository focuses on understanding the reasoning behind each algorithm, exploring multiple approaches, and improving from brute-force solutions to optimized implementations.
+The course teaches problem-solving; this repo is where I translate every lecture, pattern, and problem into idiomatic Go, from the first flowchart-and-pseudocode lecture all the way to advanced graphs and dynamic programming.
 
-The goal is to build strong problem-solving skills, prepare for technical interviews, and create a well-structured knowledge base that can be revisited anytime.
+Instead of copy-pasting solutions, every problem here is solved brute-force first, then improved, then optimized — with the reasoning written down so future-me (and anyone else studying the same playlist in Go) can actually follow the thought process.
+
+---
+
+# Why This Exists
+
+Most people following this playlist code along in C++ because that's the language of instruction. There isn't a well-maintained Go-parallel version of the course anywhere — so this repo is that missing piece: same syllabus, same lecture order, same problems, **Go instead of C++**.
 
 ---
 
 # Repository Philosophy
 
 ```
-Understand the Problem
+Watch the Lecture
         │
         ▼
-Think About Constraints
+Understand the Problem (no peeking at the C++ code)
         │
         ▼
-Build Brute Force Solution
+Build Brute Force Solution in Go
         │
         ▼
 Improve the Approach
@@ -75,7 +85,7 @@ Optimize Time Complexity
 Optimize Space Complexity
         │
         ▼
-Write Clean Go Code
+Write Idiomatic Go Code
         │
         ▼
 Analyze Complexity
@@ -86,680 +96,67 @@ Master the Pattern
 
 ---
 
-# Learning Roadmap
+# Course Map → Repo Map
 
-<table>
-
-<tr>
-
-<td width="25%" align="center">
-
-## Foundation
-
-Arrays
-
-Strings
-
-Hashing
-
-Sorting
-
-Prefix Sum
-
-Two Pointer
-
-Sliding Window
-
-</td>
-
-<td width="25%" align="center">
-
-## Intermediate
-
-Binary Search
-
-Recursion
-
-Backtracking
-
-Stack
-
-Queue
-
-Linked List
-
-Deque
-
-</td>
-
-<td width="25%" align="center">
-
-## Advanced
-
-Trees
-
-BST
-
-Heap
-
-Trie
-
-Graph
-
-Greedy
-
-Bit Manipulation
-
-</td>
-
-<td width="25%" align="center">
-
-## Expert
-
-Dynamic Programming
-
-Segment Tree
-
-Fenwick Tree
-
-Union Find
-
-Topological Sort
-
-Shortest Path
-
-Advanced Graphs
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# Learning Strategy
-
-<table>
-
-<tr>
-
-<th>Step</th>
-
-<th>Objective</th>
-
-</tr>
-
-<tr>
-
-<td>01</td>
-
-<td>Understand the intuition behind the problem</td>
-
-</tr>
-
-<tr>
-
-<td>02</td>
-
-<td>Develop the brute-force approach</td>
-
-</tr>
-
-<tr>
-
-<td>03</td>
-
-<td>Improve using better data structures</td>
-
-</tr>
-
-<tr>
-
-<td>04</td>
-
-<td>Implement the optimal solution</td>
-
-</tr>
-
-<tr>
-
-<td>05</td>
-
-<td>Analyze Time Complexity</td>
-
-</tr>
-
-<tr>
-
-<td>06</td>
-
-<td>Analyze Space Complexity</td>
-
-</tr>
-
-<tr>
-
-<td>07</td>
-
-<td>Identify the reusable pattern</td>
-
-</tr>
-
-<tr>
-
-<td>08</td>
-
-<td>Practice similar interview questions</td>
-
-</tr>
-
-</table>
-
----
-
-# What You'll Find
-
-| Category | Description |
-|-----------|-------------|
-| Brute Force | Initial straightforward solution |
-| Better Approach | Improved logic with better complexity |
-| Optimal Solution | Production-quality optimized implementation |
-| Complexity Analysis | Time and Space Complexity |
-| Clean Go Code | Readable and idiomatic Golang |
-| Interview Notes | Common tricks and observations |
-| Pattern Recognition | Learn when to reuse the same idea |
-
----
-
-<p align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,100:2563EB&height=3"/>
-
-</p>
-
-
-# Repository Structure
-
-```text
-dsa-with-me
-│
-├── array
-│   ├── two-sum
-│   ├── kadane
-│   ├── repeat-missing-number
-│   ├── merge-intervals
-│   └── ...
-│
-├── string
-├── hashing
-├── sorting
-├── binary-search
-├── recursion
-├── backtracking
-├── linked-list
-├── stack
-├── queue
-├── tree
-├── bst
-├── heap
-├── trie
-├── graph
-├── dynamic-programming
-├── greedy
-├── bit-manipulation
-├── segment-tree
-├── fenwick-tree
-└── README.md
-```
-
----
-
-# Learning Dashboard
+This table mirrors the actual lecture progression of the [Apna College DSA Series](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt), so you can follow along video-by-video and find the matching Go folder.
 
 <table align="center">
 
 <tr>
-
-<th width="280">Topic</th>
-<th>Status</th>
-<th>Problems</th>
-
+<th width="8%">Stage</th>
+<th width="32%">Playlist Section</th>
+<th width="32%">Go Folder</th>
+<th width="14%">Status</th>
+<th width="14%">Problems</th>
 </tr>
 
-<tr>
-<td>Arrays</td>
-<td>
+<tr><td>01</td><td>Flowchart, Pseudocode & Basics</td><td><code>basics</code></td><td><img src="https://img.shields.io/badge/Done-16A34A?style=flat-square"/></td><td>—</td></tr>
 
-<img src="https://img.shields.io/badge/In%20Progress-2563EB?style=flat-square"/>
+<tr><td>02</td><td>Pattern Printing</td><td><code>patterns</code></td><td><img src="https://img.shields.io/badge/Done-16A34A?style=flat-square"/></td><td>✔ 20+</td></tr>
 
-</td>
+<tr><td>03</td><td>Time & Space Complexity</td><td><code>complexity-notes</code></td><td><img src="https://img.shields.io/badge/Done-16A34A?style=flat-square"/></td><td>Notes</td></tr>
 
-<td>✔ Growing</td>
+<tr><td>04</td><td>Arrays</td><td><code>array</code></td><td><img src="https://img.shields.io/badge/In%20Progress-2563EB?style=flat-square"/></td><td>✔ Growing</td></tr>
 
-</tr>
+<tr><td>05</td><td>Strings</td><td><code>string</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<tr>
+<tr><td>06</td><td>Searching & Sorting</td><td><code>sorting</code>, <code>binary-search</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<td>Strings</td>
+<tr><td>07</td><td>Hashing</td><td><code>hashing</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<td>
+<tr><td>08</td><td>Recursion & Backtracking</td><td><code>recursion</code>, <code>backtracking</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+<tr><td>09</td><td>Linked List (Singly, Doubly, Circular)</td><td><code>linked-list</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-</td>
+<tr><td>10</td><td>Stack & Queue</td><td><code>stack</code>, <code>queue</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<td>—</td>
+<tr><td>11</td><td>Trees & Binary Trees</td><td><code>tree</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-</tr>
+<tr><td>12</td><td>Binary Search Trees</td><td><code>bst</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<tr>
+<tr><td>13</td><td>Heaps & Priority Queue</td><td><code>heap</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<td>Hashing</td>
+<tr><td>14</td><td>Tries</td><td><code>trie</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<td>
+<tr><td>15</td><td>Graphs (BFS, DFS, Dijkstra, MST, Union-Find)</td><td><code>graph</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
+<tr><td>16</td><td>Greedy Algorithms</td><td><code>greedy</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-</td>
+<tr><td>17</td><td>Dynamic Programming</td><td><code>dynamic-programming</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-<td>—</td>
+<tr><td>18</td><td>Bit Manipulation</td><td><code>bit-manipulation</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
-</tr>
-
-<tr>
-
-<td>Binary Search</td>
-
-<td>
-
-<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
-
-</td>
-
-<td>—</td>
-
-</tr>
-
-<tr>
-
-<td>Linked List</td>
-
-<td>
-
-<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
-
-</td>
-
-<td>—</td>
-
-</tr>
-
-<tr>
-
-<td>Trees</td>
-
-<td>
-
-<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
-
-</td>
-
-<td>—</td>
-
-</tr>
-
-<tr>
-
-<td>Graphs</td>
-
-<td>
-
-<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
-
-</td>
-
-<td>—</td>
-
-</tr>
-
-<tr>
-
-<td>Dynamic Programming</td>
-
-<td>
-
-<img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/>
-
-</td>
-
-<td>—</td>
-
-</tr>
+<tr><td>19</td><td>Segment Tree / Fenwick Tree (Advanced)</td><td><code>segment-tree</code>, <code>fenwick-tree</code></td><td><img src="https://img.shields.io/badge/Planned-64748B?style=flat-square"/></td><td>—</td></tr>
 
 </table>
 
 ---
 
-# Topics Covered
-
-<table>
-
-<tr>
-
-<td width="25%">
-
-### Arrays
-
-- Two Sum
-- Kadane's Algorithm
-- Rotate Array
-- Merge Intervals
-- Majority Element
-- Missing Number
-- Stock Buy & Sell
-- Prefix Sum
-- Trapping Rain Water
-
-</td>
-
-<td width="25%">
-
-### Searching
-
-- Binary Search
-- Lower Bound
-- Upper Bound
-- Search Insert
-- Peak Element
-- Rotated Array
-- Search Matrix
-
-</td>
-
-<td width="25%">
-
-### Linked List
-
-- Reverse List
-- Middle Node
-- Detect Cycle
-- Merge Lists
-- Remove Nth Node
-- Intersection
-- LRU Basics
-
-</td>
-
-<td width="25%">
-
-### Graph
-
-- BFS
-- DFS
-- Cycle Detection
-- Topological Sort
-- Dijkstra
-- MST
-- Union Find
-
-</td>
-
-</tr>
-
-</table>
-
----
-
-# Problem Layout
-
-Every problem follows a consistent structure.
+# Overall Progress
 
 ```text
-Problem Name
-│
-├── brute.go
-├── better.go
-├── optimal.go
-├── README.md
-└── notes.md
-```
-
-Each solution includes
-
-- Explanation
-- Approach
-- Dry Run
-- Time Complexity
-- Space Complexity
-- Edge Cases
-- Interview Notes
-
----
-
-# Problem Solving Workflow
-
-```text
-Read Problem
-      │
-      ▼
-Understand Constraints
-      │
-      ▼
-Find Brute Force
-      │
-      ▼
-Improve Solution
-      │
-      ▼
-Optimize
-      │
-      ▼
-Dry Run
-      │
-      ▼
-Complexity Analysis
-      │
-      ▼
-Clean Go Implementation
-```
-
----
-
-# Common Interview Patterns
-
-| Pattern | Examples |
-|----------|----------|
-| Two Pointer | Two Sum, Container With Most Water |
-| Sliding Window | Longest Substring, Maximum Sum |
-| Prefix Sum | Range Sum, Subarray Sum |
-| Binary Search | Search Insert, Peak Element |
-| Fast & Slow Pointer | Linked List Cycle |
-| Monotonic Stack | Next Greater Element |
-| Heap | K Largest Elements |
-| Backtracking | N Queens, Sudoku |
-| BFS | Shortest Path |
-| DFS | Islands, Graph Traversal |
-| Greedy | Jump Game |
-| Dynamic Programming | House Robber, LIS |
-
----
-
-# Complexity Cheat Sheet
-
-| Operation | Complexity |
-|-----------|-----------:|
-| Array Access | O(1) |
-| Linear Search | O(n) |
-| Binary Search | O(log n) |
-| HashMap Lookup | O(1) |
-| Stack Push | O(1) |
-| Queue Pop | O(1) |
-| Heap Insert | O(log n) |
-| DFS | O(V + E) |
-| BFS | O(V + E) |
-| Merge Sort | O(n log n) |
-| Quick Sort (Average) | O(n log n) |
-| Quick Sort (Worst) | O(n²) |
-
----
-
-# Coding Principles
-
-<table>
-
-<tr>
-
-<th>Principle</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>Readable Code</td>
-
-<td>Simple and clean Golang implementation.</td>
-
-</tr>
-
-<tr>
-
-<td>Optimization First</td>
-
-<td>Reduce unnecessary time and space usage.</td>
-
-</tr>
-
-<tr>
-
-<td>Pattern Recognition</td>
-
-<td>Focus on reusable interview techniques.</td>
-
-</tr>
-
-<tr>
-
-<td>Consistency</td>
-
-<td>Every problem follows the same folder structure.</td>
-
-</tr>
-
-<tr>
-
-<td>Interview Ready</td>
-
-<td>Every solution is written with coding interviews in mind.</td>
-
-</tr>
-
-</table>
-
----
-
-<p align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:0F172A,100:2563EB"/>
-
-</p>
-
-
-# GitHub Analytics
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Priyanshu-singh11&show_icons=true&theme=github_dark&hide_border=true&border_radius=12&rank_icon=github"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu-singh11&layout=compact&theme=github_dark&hide_border=true&border_radius=12"/>
-
-</p>
-
----
-
-# Contribution Activity
-
-<p align="center">
-
-<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Priyanshu-singh11&theme=github-dark&hide_border=true"/>
-
-</p>
-
----
-
-# GitHub Streak
-
-<p align="center">
-
-<img src="https://streak-stats.demolab.com?user=Priyanshu-singh11&theme=github-dark-blue&hide_border=true&border_radius=10"/>
-
-</p>
-
----
-
-# Repository Goals
-
-<table>
-
-<tr>
-
-<th width="35%">Objective</th>
-
-<th>Description</th>
-
-</tr>
-
-<tr>
-
-<td>Master DSA</td>
-
-<td>Build strong fundamentals from beginner to advanced.</td>
-
-</tr>
-
-<tr>
-
-<td>Problem Solving</td>
-
-<td>Develop intuition instead of memorizing solutions.</td>
-
-</tr>
-
-<tr>
-
-<td>Interview Preparation</td>
-
-<td>Practice patterns commonly asked in product-based companies.</td>
-
-</tr>
-
-<tr>
-
-<td>Clean Code</td>
-
-<td>Write readable and idiomatic Go implementations.</td>
-
-</tr>
-
-<tr>
-
-<td>Knowledge Base</td>
-
-<td>Create a long-term reference for algorithms and data structures.</td>
-
-</tr>
-
-</table>
-
----
-
-# Repository Progress
-
-```text
-Foundation
-████████████████████████████████████
+Playlist Coverage
+███████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  3 / 19 stages
 
 Arrays
 ███████████░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -767,16 +164,13 @@ Arrays
 Strings
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-Hashing
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-Binary Search
+Recursion & Backtracking
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 Linked List
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-Trees
+Trees / BST / Heap / Trie
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 Graphs
@@ -788,49 +182,138 @@ Dynamic Programming
 
 ---
 
-# Learning Principles
+# Repository Structure
 
-> Every solution in this repository follows the same engineering approach.
-
+```text
+dsa-with-me
+│
+├── basics/                 # flowchart, pseudocode, I/O in Go
+├── patterns/                # pattern printing problems
+├── complexity-notes/        # Big-O notes & cheat sheets
+│
+├── array/
+│   ├── two-sum
+│   ├── kadane
+│   ├── repeat-missing-number
+│   ├── merge-intervals
+│   └── ...
+│
+├── string/
+├── sorting/
+├── binary-search/
+├── hashing/
+├── recursion/
+├── backtracking/
+├── linked-list/
+├── stack/
+├── queue/
+├── tree/
+├── bst/
+├── heap/
+├── trie/
+├── graph/
+├── greedy/
+├── dynamic-programming/
+├── bit-manipulation/
+├── segment-tree/
+├── fenwick-tree/
+└── README.md
 ```
-Read Problem
 
-↓
+Each problem folder follows a consistent layout:
 
-Understand Constraints
-
-↓
-
-Find Brute Force
-
-↓
-
-Improve Solution
-
-↓
-
-Optimize
-
-↓
-
-Dry Run
-
-↓
-
-Analyze Complexity
-
-↓
-
-Write Clean Go Code
-
-↓
-
-Recognize Pattern
-
-↓
-
-Practice Similar Questions
+```text
+Problem Name
+│
+├── brute.go
+├── better.go
+├── optimal.go
+├── README.md
+└── notes.md
 ```
+
+Every solution includes: Explanation · Approach · Dry Run · Time Complexity · Space Complexity · Edge Cases · Interview Notes.
+
+---
+
+# Go-Specific Notes
+
+Since the source course is in C++, a few things are deliberately re-thought for Go rather than translated line-by-line:
+
+| C++ Concept | Go Equivalent Used Here |
+|---|---|
+| `vector<int>` | `[]int` slices |
+| `unordered_map` | `map[keyType]valueType` |
+| Pointers for Linked List/Tree nodes | Go pointers (`*Node`) with explicit `nil` checks |
+| `priority_queue` | `container/heap` interface implementation |
+| Function overloading / templates | Generics (`[T any]`) where it genuinely simplifies things |
+| Recursion + memo arrays | Recursion + `map` or slice memoization |
+| STL `sort()` | `sort.Slice` with custom `less` functions |
+
+---
+
+# Common Interview Patterns
+
+| Pattern | Examples |
+|----------|----------|
+| Two Pointer | Two Sum, Container With Most Water |
+| Sliding Window | Longest Substring, Maximum Sum Subarray |
+| Prefix Sum | Range Sum, Subarray Sum Equals K |
+| Binary Search | Search Insert, Peak Element, Rotated Array |
+| Fast & Slow Pointer | Linked List Cycle, Middle Node |
+| Monotonic Stack | Next Greater Element |
+| Heap | K Largest Elements, Merge K Lists |
+| Backtracking | N Queens, Sudoku Solver |
+| BFS / DFS | Shortest Path, Number of Islands |
+| Greedy | Jump Game, Activity Selection |
+| Dynamic Programming | House Robber, LIS, Knapsack |
+
+---
+
+# Complexity Cheat Sheet
+
+| Operation | Complexity |
+|-----------|-----------:|
+| Array Access | O(1) |
+| Linear Search | O(n) |
+| Binary Search | O(log n) |
+| Map Lookup (Go `map`) | O(1) avg |
+| Stack Push/Pop | O(1) |
+| Queue Push/Pop | O(1) |
+| Heap Insert/Extract | O(log n) |
+| DFS / BFS | O(V + E) |
+| Merge Sort | O(n log n) |
+| Quick Sort (Average / Worst) | O(n log n) / O(n²) |
+
+---
+
+# Coding Principles
+
+<table>
+<tr><th>Principle</th><th>Description</th></tr>
+<tr><td>Follow the Playlist Order</td><td>Topics unlocked in the same sequence as the course.</td></tr>
+<tr><td>Idiomatic Go</td><td>No forced C++ patterns — solutions use Go the way Go is meant to be written.</td></tr>
+<tr><td>Optimization First</td><td>Brute force is a stepping stone, never the final answer.</td></tr>
+<tr><td>Pattern Recognition</td><td>Every solved problem is tagged with the reusable pattern it belongs to.</td></tr>
+<tr><td>Consistency</td><td>Same folder structure and README format for every single problem.</td></tr>
+</table>
+
+---
+
+# GitHub Analytics
+
+<p align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Priyanshu-singh11&show_icons=true&theme=github_dark&hide_border=true&border_radius=12&rank_icon=github"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu-singh11&layout=compact&theme=github_dark&hide_border=true&border_radius=12"/>
+</p>
+
+<p align="center">
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Priyanshu-singh11&theme=github-dark&hide_border=true"/>
+</p>
+
+<p align="center">
+<img src="https://streak-stats.demolab.com?user=Priyanshu-singh11&theme=github-dark-blue&hide_border=true&border_radius=10"/>
+</p>
 
 ---
 
@@ -838,89 +321,56 @@ Practice Similar Questions
 
 ```bash
 # Clone
-
 git clone https://github.com/Priyanshu-singh11/dsa-with-me.git
 
 # Open Project
-
 cd dsa-with-me
 
-# Create Branch
-
-git checkout -b feature/problem-name
+# Create a branch named after the playlist topic
+git checkout -b topic/linked-list
 
 # Commit
-
-git commit -m "Add problem-name solution"
+git commit -m "Add linked-list: reverse-list (brute + optimal, Go)"
 
 # Push
-
-git push origin feature/problem-name
+git push origin topic/linked-list
 ```
 
 ---
 
-# Repository Standards
+# Roadmap
 
-Every problem should contain:
-
-- Problem Statement
-- Explanation
-- Brute Force Solution
-- Better Solution
-- Optimal Solution
-- Dry Run
-- Time Complexity
-- Space Complexity
-- Edge Cases
-- Clean Golang Code
-
----
-
-# Future Topics
-
-| Phase | Topics |
-|--------|--------|
-| Phase 1 | Arrays · Strings · Hashing |
-| Phase 2 | Binary Search · Stack · Queue |
-| Phase 3 | Linked List · Recursion · Backtracking |
-| Phase 4 | Trees · BST · Heap · Trie |
-| Phase 5 | Graphs · BFS · DFS · Union Find |
-| Phase 6 | Greedy · Dynamic Programming |
-| Phase 7 | Segment Tree · Fenwick Tree · Advanced Algorithms |
+| Phase | Playlist Topics | Target |
+|--------|--------|---|
+| Phase 1 | Arrays · Strings · Hashing | In progress |
+| Phase 2 | Binary Search · Sorting · Stack · Queue | Next |
+| Phase 3 | Recursion · Backtracking · Linked List | Planned |
+| Phase 4 | Trees · BST · Heap · Trie | Planned |
+| Phase 5 | Graphs · BFS · DFS · Union Find · Dijkstra · MST | Planned |
+| Phase 6 | Greedy · Dynamic Programming | Planned |
+| Phase 7 | Segment Tree · Fenwick Tree · Advanced Graphs | Planned |
 
 ---
 
 # Support
 
-If this repository helps you learn Data Structures & Algorithms, consider giving it a ⭐.
-
-It motivates me to continue documenting my learning journey and improving the repository.
+If this repo helps you follow the Apna College DSA Series in Go instead of C++, a ⭐ keeps me motivated to keep translating lectures.
 
 ---
 
 <p align="center">
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:2563EB,100:0F172A&height=140&section=footer"/>
-
 </p>
 
 <p align="center">
-
 <b>DSA WITH ME</b>
-
 <br><br>
-
-Mastering Data Structures & Algorithms using Golang
-
+Apna College DSA Series — Solved Entirely in Golang
 <br><br>
-
 <a href="https://github.com/Priyanshu-singh11">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
 </a>
-
 <a href="https://go.dev">
 <img src="https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go"/>
 </a>
-
 </p>

@@ -2,23 +2,53 @@ package main
 
 import "fmt"
 
-func hashMap(nums []int, target int) []int {
-	//{3,2,4,5,6,7}
-	indexMap := make(map[int]int)
-	for i, num := range nums {
-		sec := target - num
-		if index, ok := indexMap[sec]; ok {
-			// Here if 2 exist in the map then it return index value where it is stored
-			return []int{i, index}
+func twoSumDecOrder(arr []int, target int) []int {
+	left := 0
+	right := len(arr) - 1
+	for left < right {
+		sum := arr[left] + arr[right]
+		if sum > target {
+			left++
 		}
-		indexMap[num] = i
-		//2 : 1 {key(number):value(index)}
+		if sum < target {
+			right--
+		}
+		if sum == target {
+			return []int{arr[left], arr[right]}
+		}
 	}
-	return []int{}
+	return nil
+}
+
+func twosumIncOrder(arr []int, target int) []int {
+	left := 0
+	right := len(arr) - 1
+	for left < right {
+		sum := arr[left] + arr[right]
+		if sum > target {
+			right--
+		}
+		if sum < target {
+			left++
+		}
+		if sum == target {
+			return []int{arr[left], arr[right]}
+		}
+	}
+	return nil
 }
 
 func main() {
-	num := []int{3, 2, 4, 5, 6, 7}
-	target := 9
-	fmt.Println(hashMap(num, target))
+
+	//Increasing order
+	arr := []int{2, 7, 11, 15}
+	target := 26
+	result := twosumIncOrder(arr, target)
+	fmt.Println(result)
+
+	//Decreasing order array
+	arr2 := []int{15, 11, 7, 2}
+	target2 := 26
+	result2 := twoSumDecOrder(arr2, target2)
+	fmt.Println(result2)
 }

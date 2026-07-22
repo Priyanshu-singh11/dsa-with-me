@@ -47,5 +47,3 @@ func main() {
 	fmt.Println(slowFastPointerMethod(nums1))
 	fmt.Println(slowFastPointerMethod(nums2))
 }
-
-// currentli i am here PS C:\Users\Amd\Documents\golang\DSA\array>  and my code PS C:\Users\Amd\Documents\golang\DSA\array\findDuplicate here an i want to push my code on https://github.com/Priyanshu-singh11/dsa-with-me/tree/main/array here

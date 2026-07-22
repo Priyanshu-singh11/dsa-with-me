@@ -4,25 +4,25 @@ import "fmt"
 
 func MissingAndRepeatedValues(nums [][]int) []int {
 	n := len(nums)
-	var expectedSum, actualSum int = 0, 0
-	// finding repeated value
-	var repeated, missing int = -1, -1
-	set := make(map[int]struct{})
-	for _, num := range nums {
-		for _, elem := range num {
+	seen := make(map[int]struct{})
+	expectedSum, actualSum := 0, 0
+	repeated, missing := 0, 0
+	//finding repeated
+	for _, row := range nums {
+		for _, elem := range row {
 			actualSum += elem
-			if _, ok := set[elem]; ok {
+			_, ok := seen[elem]
+			if ok {
 				repeated = elem
 			}
-			set[elem] = struct{}{}
-			// struct{}   {}                  Student    {}
-			// ^^^^^^^^   ^^                  ^^^^^^^    ^^
-			// Type       Create a value      Type       Create a value
+			seen[elem] = struct{}{}
 		}
 	}
 
 	expectedSum = (n * n) * (n*n + 1) / 2
 	missing = expectedSum - actualSum + repeated
+
+	//finding missing
 	return []int{repeated, missing}
 }
 

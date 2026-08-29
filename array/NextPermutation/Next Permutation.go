@@ -25,6 +25,7 @@ func nextPermutation(nums []int) {
 			break
 		}
 	}
+	//n-2 because we use numsnums[i+1]
 
 	if pivot == -1 {
 		reverse(nums, 0, n-1)

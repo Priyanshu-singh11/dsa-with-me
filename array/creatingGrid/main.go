@@ -5,6 +5,9 @@ import "fmt"
 func main() {
 	rows, cols := 3, 3
 	grid := make([][]int, rows)
+	[].  []int
+	 ^.   ^ 
+	Arr.  it tells it stire slices 
 	//it creates [ []int *3 ] so it create like that [[] [] []] but it is actually [nil *3] it shows nil becuase it see empty slice
 	//fmt.Println(grid[0] == nil) //true here you can check this
 	for i := range grid {

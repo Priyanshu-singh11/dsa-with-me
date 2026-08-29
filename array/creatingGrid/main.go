@@ -6,7 +6,7 @@ func main() {
 	rows, cols := 3, 3
 	grid := make([][]int, rows)
 	//it creates [ []int *3 ] so it create like that [[] [] []] but it is actually [nil *3] it shows nil becuase it see empty slice
-	//fmt.Println(grid[0] == nil) here you can check this
+	//fmt.Println(grid[0] == nil) //true here you can check this
 	for i := range grid {
 		grid[i] = make([]int, cols)
 		// now here i fill all values in row 0 1 and 2 see how and why?

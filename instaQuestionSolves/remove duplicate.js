@@ -1,4 +1,7 @@
 function removeDuplicate(data){
+    if(data.length===0){
+        return 0
+    }
     let newArr = []
     let isFound = false;
     for(let i=0;i<=data.length-1;i++){

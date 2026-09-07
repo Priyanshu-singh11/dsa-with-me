@@ -3,8 +3,9 @@ function removeDuplicate(data){
         return 0
     }
     let newArr = []
-    let isFound = false;
+    
     for(let i=0;i<=data.length-1;i++){
+        let isFound = false;
         for(let j=0;j<=newArr.length-1;j++){
         if(data[i]===newArr[j]){
             isFound = true;

@@ -17,3 +17,16 @@ return newArr
 
 let result=sumExceptSelf(arr)
 console.log(result)
+
+
+
+function OptimizedSumExceptSelf(arr){
+ let total = arr.reduce((sum,elem)=>{
+  return sum += elem
+ })
+ 
+ return arr.map((elem)=>total-elem)
+ }
+
+let result=OptimizedSumExceptSelf(arr)
+console.log(result)

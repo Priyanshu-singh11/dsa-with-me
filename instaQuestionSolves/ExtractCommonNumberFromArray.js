@@ -1,6 +1,5 @@
 let arr1 = [4,6,89,9,0]
 let arr2 = [5,8,5,7,8]
-let arr3 = [2,4,5,6,7,8]
 
 
 function commonNumberArray(...arr){

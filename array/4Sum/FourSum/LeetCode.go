@@ -1,4 +1,3 @@
-
 func fourSum(nums []int, target int) [][]int {
     sort.Ints(nums)
     newArr := [][]int{}
@@ -23,7 +22,7 @@ func fourSum(nums []int, target int) [][]int {
                     for p<q && nums[p]==nums[p-1]{
                         p++
                     }
-                    for p<q && nums[q]==nums[q-1]{
+                    for p<q && nums[q]==nums[q+1]{
                         q--
                     }
                 }

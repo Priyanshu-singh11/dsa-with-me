@@ -21,6 +21,7 @@ func threeSum(nums []int) [][]int {
                 for j<k && nums[j]==nums[j-1]{
                 j++
             }
+                //k for loop not required 
             for j<k && nums[k]==nums[k+1]{
                 k--
             }

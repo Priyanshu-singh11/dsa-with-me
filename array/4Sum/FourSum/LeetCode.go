@@ -22,6 +22,7 @@ func fourSum(nums []int, target int) [][]int {
                     for p<q && nums[p]==nums[p-1]{
                         p++
                     }
+                    //q-- loop not required 
                     for p<q && nums[q]==nums[q+1]{
                         q--
                     }
